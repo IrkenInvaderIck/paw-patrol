@@ -1,2 +1,3 @@
 # paw-patrol
 hello! this is my submission for the Hack Club boba drops contest. I have never had boba before, but I just wanted to share my site with a supportive beginners group! Thanks for letting me participate!
+note: the reason all my files were uploaded simultaneously and then edited is because i had my files on my personal computer, then transferred them into here. I did not copy, plagarize, or steal anything i did not credit.
