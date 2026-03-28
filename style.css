@@ -1,0 +1,83 @@
+body {
+    background-image:url(wall.png);
+}
+
+@font-face {
+    font-family: 'PawPatrol';
+    src: url(GROBOLD.ttf);
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'PawPatrol';
+}
+
+.gradient-text {
+    color: #eee; 
+    background-image: linear-gradient(to bottom, rgb(112, 205, 255), rgb(0, 8, 255));
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px yellow;
+}
+
+.fix-stroke {
+   paint-order: stroke fill;
+}
+/* CREDIT FOR STROKE !!! https://stackoverflow.com/questions/26634201/add-stroke-around-text-on-the-outside-with-css */
+
+
+/* #text style */
+h1 {
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+}
+
+h4 {
+    font-size: 38px;
+    display: flex;
+    justify-content: center;
+}
+
+h5 {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+h6 {
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    font-size: 18px;
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive, sans-serif;
+    margin:10px 0 10px 0;
+    font-weight: bold;
+    color:rgb(0, 2, 136);
+}
+/* #text style end*/
+
+div {
+    background-image:url(paw\ patrol.jpg);
+    border-radius: 15px;
+    margin-left:200px;
+    margin-right:200px;
+    padding:10px;
+    justify-content: center;
+}
