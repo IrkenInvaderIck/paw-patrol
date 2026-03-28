@@ -81,3 +81,11 @@ div {
     padding:10px;
     justify-content: center;
 }
+
+img {
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.2);
+}
